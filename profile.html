@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media webiste Design</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responcive.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png" ></a>
+   
+         <div class="search-box">
+            <img src="images/search.png">
+            <input type="text" placeholder="Search">
+         </div>
+
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png"><span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png"><span>Messagin</span></a></li>
+                <li><a href="#"><img src="images/notification.png"><span>Notification</span></a></li>
+               
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/user-1.png" class="nav-profil-img" onclick="toggleMenu()">
+            </div>
+            </div>
+           <!-- ----------profil dropdown menu---------- -->
+
+            <div class="profile-menu-wrap"id="profileMenu">
+                <div class="profile-menu">
+                    <div class="user-info">
+                        <img src="images/user-1.png">
+                        <div>
+                            <h3>Rakib Hossain</h3>
+                            <a href="profile.html">See Your Profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/feedback.png">
+                        <p>Give Feedback</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/setting.png">
+                        <p>Setting & privacy</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/help.png">
+                        <p>Help & Support</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/display.png">
+                        <p>disply & Accessblity</p>
+                        <span>></span>
+                    </a>
+                    <a href="#" class="profile-menu-link">
+                        <img src="images/logout.png">
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+           </nav>
+     <!-- ----navbar-----end---------  -->
+     <!-- --------profile Page start--------- -->
+     <div class="container">
+        <div class="profile-main">
+         <div class="profile-container">
+            <img src="images/cover-pic.png" width="100%">
+            <div class="profile-container-inner">
+                <img src="images/user-1.png" class="profile-pic">
+                <h1>Rakib Hossain</h1>
+                <br>Web Developer at Microsoft | Former Developer At Datastack and
+                inter at orcel<br>
+                <p>San Francisco ,United States &middot; <a href="#">Contact info</a></p>
+                 
+                <div class="mutual-coneection">
+                    <img src="images/user-2.png">
+                    <span>1 Mutual Connection : Oranldo Giggess</span>
+                </div>
+                <div class="profile-btn">
+                    <a href="#" class="primary-btn"><img src="images/connect.png">Connect</a>
+                    <a href="#"><img src="images/chat.png">Message</a>
+                </div>
+            </div>
+         </div>
+        <!-- -----  description----- -->
+         <div class="profile-description">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim blanditiis ab quod sapiente inventore aliquam illo ut quae corrupti. Labore Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ipsa facilis blanditiis earum tenetur quasi! Eius culpa officiis labore excepturi?.</p>
+            <a href="#" class="see-more-link">See More...</a>
+         </div>
+         <!-- description 2 -->
+        <div class="profile-description">
+            <h2>Experince</h2>
+          <div class="profile-desc-row">
+            <img src="images/microsoft.png">
+            <div>
+                <h3>Lead Font-end Developer</h3>
+                <b>Microsoft &middot; Full-time</b>
+                <b>Feb 2021 - Present &middot; 1.5 Years</b>
+                <p>Computer programmers write, modify, and test code and scripts that allow computer software and applications to function properly. They turn the designs created by software developers</p>
+                <hr>
+            </div>
+          </div>
+          <!-- second-des-2 -->
+          
+           <div class="profile-desc-row">
+            <img src="images/slack.png">
+            <div>
+                <h3>Full Stack Developer</h3>
+                <b>Slack &middot; Full-time</b>
+                <b>June 2018 - Jan 2021 &middot; 2.6 Years</b>
+                <p>Computer programmers write, modify, and test code and scripts that allow computer software and applications to function properly. They turn the designs created by software developers</p>
+                <hr>
+            </div>
+          </div>
+
+      <!-- third des -->
+      
+      <div class="profile-desc-row">
+        <img src="images/google.png">
+        <div>
+            <h3>Web Developer</h3>
+            <b>Goggle inc &middot; Full-time</b>
+            <b>Sept 2015 - May 2018 &middot; 2.6 Years</b>
+            <p>Computer programmers write, modify, and test code and scripts that allow computer software and applications to function properly. They turn the designs created by software developers</p>
+            </div>
+      </div>
+      <hr>
+      <a href="#" class="Experince-link"> Show All 7 Experince <img src="images/right-arrow.png"></a>
+      
+      </div>
+        <!-- *********** 1 -->
+      <div class="profile-description">
+        <h2>Education</h2>
+        <div class="profile-desc-row">
+            <img src="images/stanford.png">
+            <div>
+                <h3>Stanford University</h3>
+                <b>BSEE , Electircal Enginnering</b>
+                <b>2018 - 2023</b>
+                <hr>
+            </div>
+        </div>
+
+        <!-- ********** 2 -->
+        <div class="profile-desc-row">
+            <img src="images/north.png">
+            <div>
+                <h3>Nortwestern University</h3>
+                <b>BSEE , Computer since</b>
+                <b>2015 - 2018</b>
+                <hr>
+            </div>
+        </div>
+        <!-- ************** 3 -->
+        <div class="profile-desc-row">
+            <img src="images/mit.png">
+            <div>
+                <h3>Harvard University</h3>
+                <b>senior High school</b>
+                <b>2005 - 2018</b>
+            </div>
+        </div>
+      </div>
+      <div class="profile-description">
+        <h2>Skills</h2>
+        <a href="#" class="siklls-btn"> Ladership</a>
+        <a href="#" class="siklls-btn"> Web Design</a>
+        <a href="#" class="siklls-btn"> Devlopment</a>
+        <a href="#" class="siklls-btn"> Communication</a>
+        <a href="#" class="siklls-btn"> UI/UX</a>
+        <a href="#" class="siklls-btn"> Planing</a>
+        <a href="#" class="siklls-btn"> Coding</a>
+        <a href="#" class="siklls-btn"> Java Script</a>
+        <a href="#" class="siklls-btn"> Python</a>
+        <a href="#" class="siklls-btn"> Enterprenourship</a>
+      </div>
+      <div class="profile-description">
+        <h2>Language</h2>
+        <a href="#" class="Language-btn">English</a>
+        <a href="#" class="Language-btn">Jerman</a>
+       
+      </div>
+
+</div>
+        <!-- ------profile----sidebar----- -->
+        <div class="profile-sidebar">
+         
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master The Principle of web design</p>
+                <div>
+                 <img src="images/user-1.png">
+                 <img src="images/mi-logo.png">
+                </div>
+    
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Lean More</a>
+             </div>
+           <div class="sidebar-people">
+            <h3>People You know</h3>
+            <div class="sidebar-people-row">
+                <img src="images/user-3.png">
+                <div>
+
+                  <h2>Samuel Tony</h2>
+                  <p>Head Of Marketing Alibaba</p>
+                  <a href="#"> Connect</a>
+
+
+
+                </div>
+            </div>
+            <!-- *** -->
+            <div class="sidebar-people-row">
+                <img src="images/user-4.png">
+                <div>
+
+                  <h2>Benjim Leo</h2>
+                  <p>Head Of Marketing Alibaba</p>
+                  <a href="#"> Connect</a>
+
+
+
+                </div>
+            </div>
+            <!-- ****** -->
+            <div class="sidebar-people-row">
+                <img src="images/user-5.png">
+                <div>
+
+                  <h2>Steave greg</h2>
+                  <p>Head Of Marketing Alibaba</p>
+                  <a href="#"> Connect</a>
+
+
+
+                </div>
+            </div>
+            <!-- ******* -->
+            <div class="sidebar-people-row">
+                <img src="images/user-2.png">
+                <div>
+
+                  <h2>Martin Lews</h2>
+                  <p>Head Of Marketing Alibaba</p>
+                  <a href="#"> Connect</a>
+
+
+
+                </div>
+            </div>
+           </div>
+
+
+        </div>
+     </div>
+      
+
+     <div class="profile-footer">
+        <div class="siderbar-useful-links">
+            <a href="#">About</a>
+            <a href="#">Acessiblity</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">adversting</a>
+            <a href="#">Get The App</a>
+            <a href="#">More</a>
+
+           <div class="copyright-message">
+            <img src="images/logo.png">
+            <p>Linkedup &#169; 2023. All Right Resverd</p>
+           </div>
+
+          </div>
+
+     </div>
+
+
+            <script>
+                let profileMenu = document.getElementById("profileMenu");
+               function toggleMenu(){ 
+                    profileMenu.classList.toggle("open-menu");
+                }
+                
+            </script>
+</body>
+</html>
